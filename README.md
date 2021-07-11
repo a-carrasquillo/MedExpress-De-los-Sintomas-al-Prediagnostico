@@ -13,6 +13,6 @@ El uso sin fines de lucro o educativo inclina la balanza a favor del uso justo.
 DESCARGO DE RESPONSABILIDAD: ESTE PROYECTO NO PROPORCIONA ASESORAMIENTO MÉDICO.
 La información, que incluye, entre otros, texto, imágenes y otro material contenido en este proyecto es solo para fines informativos. Ningún material de este proyecto está destinado a sustituir el asesoramiento, el diagnóstico o el tratamiento médico profesional. Siempre busque el consejo de su médico u otro proveedor de atención médica calificado con cualquier pregunta que pueda tener con respecto a una afección o tratamiento médico y nunca ignore el consejo médico profesional ni se demore en buscarlo debido a algo que haya leído sobre este proyecto. [3]
 
-[1] Rioja Salud (n.f.). Urgencias y emergencias - Qué es una urgencia y una emergencia. Recuperado el 15 de mayo de 2018, de https://www.riojasalud.es/ciudadanos/centros-y-servicios/urgencias/77-urgencias-y-emergencias?start=1
-[2] Reconocimiento de emergencias médicas: MedlinePlus enciclopedia médica. (n.f.). Recuperado el 8 de diciembre de 2019, de https://medlineplus.gov/spanish/ency/article/001927.htm.
+[1] Rioja Salud (n.f.). Urgencias y emergencias - Qué es una urgencia y una emergencia. Recuperado el 15 de mayo de 2018, de https://www.riojasalud.es/ciudadanos/centros-y-servicios/urgencias/77-urgencias-y-emergencias?start=1 <br>
+[2] Reconocimiento de emergencias médicas: MedlinePlus enciclopedia médica. (n.f.). Recuperado el 8 de diciembre de 2019, de https://medlineplus.gov/spanish/ency/article/001927.htm. <br>
 [3] Xu, L. (2020, December 28). Medical Disclaimer Examples. https://termly.io/resources/articles/medical-disclaimer-examples/#medical-disclaimer-examples. 
