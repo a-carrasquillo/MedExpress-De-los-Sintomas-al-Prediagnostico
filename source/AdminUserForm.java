@@ -56,7 +56,7 @@ public class AdminUserForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        welcome = new javax.swing.JLabel();
         change_profile = new javax.swing.JButton();
         sign_out = new javax.swing.JButton();
         adm_patients = new javax.swing.JButton();
@@ -67,8 +67,8 @@ public class AdminUserForm extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Página Principal");
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        jLabel1.setText("¿Qué desea hacer 'Nombre Adm'?");
+        welcome.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
+        welcome.setText("¿Qué desea hacer 'Nombre Adm'?");
 
         change_profile.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         change_profile.setText("Cambiar Perfil del Lugar de Trabajo");
@@ -127,7 +127,7 @@ public class AdminUserForm extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(sign_out)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel1)
+                        .addComponent(welcome)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(change_profile, javax.swing.GroupLayout.DEFAULT_SIZE, 330, Short.MAX_VALUE)
                             .addComponent(adm_patients, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -140,7 +140,7 @@ public class AdminUserForm extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(welcome, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(35, 35, 35)
                 .addComponent(change_profile)
                 .addGap(18, 18, 18)
@@ -429,9 +429,9 @@ public class AdminUserForm extends javax.swing.JFrame {
     private javax.swing.JButton add_workplace;
     private javax.swing.JButton adm_patients;
     private javax.swing.JButton change_profile;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton list_employees;
     private javax.swing.JButton remove_workplace;
     private javax.swing.JButton sign_out;
+    protected javax.swing.JLabel welcome;
     // End of variables declaration//GEN-END:variables
 }
