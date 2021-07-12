@@ -29,6 +29,7 @@ public class Create_Account extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Opciones para crear cuentas");
 
         adminBtn.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         adminBtn.setText("Administrador");
