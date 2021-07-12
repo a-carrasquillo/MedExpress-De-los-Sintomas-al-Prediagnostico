@@ -36,7 +36,6 @@ public class Admission_Patient extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         birthday = new javax.swing.JTextField();
-        jLabel14 = new javax.swing.JLabel();
         edad = new javax.swing.JTextField();
         genero = new javax.swing.JTextField();
         plan_medico = new javax.swing.JTextField();
@@ -51,6 +50,7 @@ public class Admission_Patient extends javax.swing.JFrame {
         jLabel3.setText("jLabel3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Información del Paciente");
 
         apellidos.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
 
@@ -88,9 +88,6 @@ public class Admission_Patient extends javax.swing.JFrame {
 
         birthday.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
 
-        jLabel14.setFont(new java.awt.Font("Times New Roman", 0, 36)); // NOI18N
-        jLabel14.setText("Información del Paciente:");
-
         edad.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
 
         genero.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
@@ -122,10 +119,6 @@ public class Admission_Patient extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(83, 83, 83)
-                .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(83, 83, 83))
             .addGroup(layout.createSequentialGroup()
                 .addGap(50, 50, 50)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -161,14 +154,12 @@ public class Admission_Patient extends javax.swing.JFrame {
                         .addGap(157, 157, 157)
                         .addComponent(close, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(157, 157, 157)))
-                .addGap(50, 50, 50))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel14)
-                .addGap(18, 18, 18)
+                .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1))
@@ -269,7 +260,6 @@ public class Admission_Patient extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
