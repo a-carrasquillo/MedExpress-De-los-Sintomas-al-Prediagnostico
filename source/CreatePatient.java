@@ -212,7 +212,7 @@ public class CreatePatient extends javax.swing.JFrame {
         year.setPreferredSize(new java.awt.Dimension(90, 28));
 
         planes.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        planes.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        planes.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Plan ABC", "Plan XYZ" }));
 
         pass_conf.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
 
