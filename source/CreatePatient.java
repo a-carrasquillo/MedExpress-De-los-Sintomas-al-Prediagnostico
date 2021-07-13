@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 /**GUI que le permite al paciente crearse una cuenta en el sistema
  *
  * @author a-carrasquillo
- * @author a-rivera
+ * @author arivesan
  */
 public class CreatePatient extends javax.swing.JFrame {
     // constantes relacionadas a la base de datos
