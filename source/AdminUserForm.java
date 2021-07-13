@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /** GUI utilizado para mostrar las opciones que tiene un administrador
  * @author a-carrasquillo
- * @author a-rivera
+ * @author arivesan
  */
 public class AdminUserForm extends javax.swing.JFrame {
 
