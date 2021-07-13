@@ -1,7 +1,7 @@
 /**
  *
  * @author a-carrasquillo
- * @author a-rivera
+ * @author arivesan
  */
 public class Add_Workplace extends javax.swing.JFrame {
 
