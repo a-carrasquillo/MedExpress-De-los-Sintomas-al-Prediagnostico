@@ -7,7 +7,7 @@ import javax.swing.SpinnerNumberModel;
 
 /** GUI que nos permite modificar el perfil de una facilidad
  * @author a-carrasquillo
- * @author a-rivera
+ * @author arivesan
  */
 public class Change_Profile_Workplace extends javax.swing.JFrame {
 
