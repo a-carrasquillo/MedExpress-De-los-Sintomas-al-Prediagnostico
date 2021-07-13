@@ -1,7 +1,7 @@
 /**GUI utilizado para mostrar la información de admisión de un paciente
  *
  * @author a-carrasquillo
- * @author a-rivera
+ * @author arivesan
  */
 public class Admission_Patient extends javax.swing.JFrame {
 
