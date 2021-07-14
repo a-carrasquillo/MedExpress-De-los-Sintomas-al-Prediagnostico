@@ -39,7 +39,7 @@ public class Create_Medical_History extends javax.swing.JFrame {
     /**Constructor especial 2
      * 
      * @param id_medico - número de identificación del médico
-     * @param id_p - - número de identificación del paciente
+     * @param id_p - número de identificación del paciente
      */
     public Create_Medical_History(String id_medico, String id_p) {
         initComponents();
