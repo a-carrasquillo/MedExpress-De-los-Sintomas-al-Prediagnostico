@@ -28,7 +28,7 @@ public class ForgotPwdAdmin extends javax.swing.JFrame {
         error.setText("");
     }
     
-    /** Constructor especial 1
+    /** Constructor especial
      * 
      * @param id_adm -  número de identificación del administrador
      */
