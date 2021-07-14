@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  */
 public class CreatePatient extends javax.swing.JFrame {
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser";
 
     /** Constructor por defecto
@@ -448,7 +448,7 @@ public class CreatePatient extends javax.swing.JFrame {
             {
                 try
                 {
-                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
                     String query = "insert into pacientes values('"+id_num+"', '"+pwd+"', "+ ss+", '"+ tel + "', '" + buzon + "', '" + pueblo + "', '" + estado + "', '"+ zip + "', '" + calle + "', '" + nombre + "', '"+ apellidos+"', '"+cumple + "', " + edad + ", '" + genero + "', '" + plan + "')";    
                     p_statement = coneccion.prepareStatement(query);
                     // realizar el update

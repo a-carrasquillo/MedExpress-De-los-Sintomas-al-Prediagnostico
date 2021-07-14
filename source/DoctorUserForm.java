@@ -16,7 +16,7 @@ public class DoctorUserForm extends javax.swing.JFrame {
     private String id_paciente;
     private List<String> id_historial_medico;
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser"; 
     
     /** Constructor por defecto
@@ -185,7 +185,7 @@ public class DoctorUserForm extends javax.swing.JFrame {
         Connection coneccion = null;
         try
         {
-            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
             // buscar el historial médico basado en el paciente y el médico que solicita el historial
             String query = "select ID_Hist_Med, Fec_Consulta, Resultado_Exam_Fis, Problema_Actual from MedExpress.historial_medico where ID_Paciente ='" + id_paciente +"' and ID_Medico = '"+id_medico+"' order by Fec_Consulta";
             Statement statement = coneccion.createStatement();

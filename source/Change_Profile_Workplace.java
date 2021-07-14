@@ -14,7 +14,7 @@ public class Change_Profile_Workplace extends javax.swing.JFrame {
     // data fields
     private String id_admin,id_facilidad, tipo_facilidad;
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser";
     
      /**
@@ -234,7 +234,7 @@ public class Change_Profile_Workplace extends javax.swing.JFrame {
          
          try
          {
-                   coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+                   coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
                    // query para actualizar la información
                    String query = "update " + tipo_facilidad + " set horario_apertura = '"+horario_apertura+"', horario_cierre = '"+ horario_cierre +"', plan = '"+plan+ "', num_tel = '"
                            +num_tel +"', cap_est = "+cap_estacionamiento+", cant_doc = "+cant_doc+" where ID_Facilidad= '"+id_facilidad+"' ";

@@ -9,7 +9,7 @@ public class Edit_Profile_Patient extends javax.swing.JFrame {
     //data field
     private String id_paciente;
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser"; 
     
     /**Constructor por defecto

@@ -11,7 +11,7 @@ public class Create_Medical_History extends javax.swing.JFrame {
     private String id_medico;
     private String id_p;
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser";
     
     /**Constructor por defecto
@@ -291,7 +291,7 @@ public class Create_Medical_History extends javax.swing.JFrame {
             final int ID_HISTORIAL = 0;
             try
                 {
-                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
                     String query = "insert into Historial_Medico values("+ID_HISTORIAL+",'"+id_medico+"',"+estatura+", '"+ resultadoExamFisico+"', '"+ problemaActual+"'," + "Curdate()" + ", " + peso + ", '" + condSalud + "', '" + alergias + "', '"+ id_p + "')";
                     p_statement = coneccion.prepareStatement(query);
                     

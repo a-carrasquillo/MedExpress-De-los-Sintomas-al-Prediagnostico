@@ -16,7 +16,7 @@ public class Create_Account_Adm extends javax.swing.JFrame {
     // data fields
     private List<String> id_fac;
     // constantes relacionadas a la base de datos
-    private final String YourPassWord = "YourPassWord";
+    private final String YOURPASSWORD = "YourPassWord";
     private final String DBUSER = "dbuser";
     
     /** Constructor por defecto
@@ -387,12 +387,12 @@ public class Create_Account_Adm extends javax.swing.JFrame {
                 PreparedStatement p_statement2=null;
                 try
                 {
-                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+                    coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
                     // query de inserción en la tabla de los administradores de facilidades médicas
                     String query = "insert into adm_fac_med values('"+id+"', '"+password+ "', '" + nombre + "', '"+ apellido+"')";
                     p_statement = coneccion.prepareStatement(query);
                     
-                    c2 = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+                    c2 = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
                     // query de inserción en la tabla de trabaja
                     String query2 = "insert into trabaja values('"+id+"', '"+id_fac.get(nombre_facilidad.getSelectedIndex())+"', '"+entrada+"', '"+salida+"', '"+dias_trabajo+"' )";
                     p_statement2 = c2.prepareStatement(query2);
@@ -466,7 +466,7 @@ public class Create_Account_Adm extends javax.swing.JFrame {
         Connection coneccion = null;
         try
         {
-            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
             // query para traer los nombres y los números de identificación de los hospitales
             String query = "select Nombre, ID_Facilidad from MedExpress.Hospitales";
             Statement statement = coneccion.createStatement();
@@ -526,7 +526,7 @@ public class Create_Account_Adm extends javax.swing.JFrame {
         Connection coneccion = null;
         try
         {
-            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YourPassWord);
+            coneccion = DriverManager.getConnection("jdbc:mysql://localhost:3306/MedExpress?autoReconnect=true&useSSL=false",DBUSER,YOURPASSWORD);
             // query para traer los nombres y los números de identificación de las oficinas médicas
             String query = "select Nombre, ID_Facilidad from MedExpress.Oficinas_Medicas";
             Statement statement = coneccion.createStatement();
