@@ -12,10 +12,6 @@ import javax.swing.JOptionPane;
  * @author arivesan
  */
 public class AdminUserForm extends javax.swing.JFrame {
-
-    /**
-     * Creates new form AdminUserForm
-     */
     // data fields
     private String id_admin;
     private List<String> id_pacientes;
