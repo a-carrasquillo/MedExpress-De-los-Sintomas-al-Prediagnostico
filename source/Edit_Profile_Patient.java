@@ -334,7 +334,7 @@ public class Edit_Profile_Patient extends javax.swing.JFrame {
     protected java.awt.TextField apellidos;
     protected javax.swing.JTextField buzon;
     protected javax.swing.JTextField carretera;
-    protected javax.swing.JLabel error;
+    private javax.swing.JLabel error;
     protected javax.swing.JTextField estado;
     protected javax.swing.JRadioButton femenino;
     private javax.swing.JLabel jLabel1;
