@@ -579,7 +579,7 @@ public class Search_Medical_Facility extends javax.swing.JFrame {
 
     private void see_doctorsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_see_doctorsActionPerformed
         // crear una instancia del GUI que nos muestra los médicos disponibles
-        medicos_disponibles medicos = new medicos_disponibles();
+        Medicos_Disponibles medicos = new Medicos_Disponibles();
         // crear instancia de ArrayList para almacenar el id de los médicos
         id_medico = new ArrayList<>();
         
