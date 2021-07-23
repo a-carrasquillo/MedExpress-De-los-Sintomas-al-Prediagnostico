@@ -527,7 +527,7 @@ public class Search_Medical_Facility extends javax.swing.JFrame {
 
     private void see_ratingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_see_ratingActionPerformed
         // crear una instancia del GUI que nos permite ver la lista de reseñas de una facilidad
-        ratings_list listaRatings = new ratings_list();
+        Ratings_List listaRatings = new Ratings_List();
         
         Connection coneccion = null;
         try

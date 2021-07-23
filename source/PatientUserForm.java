@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /** GUI utilizado para mostrar las opciones que tiene un paciente
  * 
- *@author a-carrasquillo
+ * @author a-carrasquillo
  * @author arivesan
  */
 public class PatientUserForm extends javax.swing.JFrame {
