@@ -163,7 +163,7 @@ public class Medicos_Disponibles extends javax.swing.JFrame {
                 ResultSet result = statement.executeQuery(query);
                 
                 // instanciar el GUI que nos permite ver los ratings de un médico en específico
-                ratings_list ratings = new ratings_list();
+                Ratings_List ratings = new Ratings_List();
                 
                 // variables que almacenan la información de las reseñas
                 String fecha = "", hora, comentario, rating_num;
